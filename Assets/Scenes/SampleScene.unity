@@ -252,6 +252,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Joueur
       objectReference: {fileID: 0}
+    - target: {fileID: 3839476478293206250, guid: 9c8bdb3ce65c0b94c8198282c8c6b977, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503667912865271122, guid: 9c8bdb3ce65c0b94c8198282c8c6b977, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9060166729037348558, guid: 9c8bdb3ce65c0b94c8198282c8c6b977, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -303,6 +311,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9060166729037348558, guid: 9c8bdb3ce65c0b94c8198282c8c6b977, type: 3}
   m_PrefabInstance: {fileID: 181513733394152958}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &181513733394152960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1086367136378547240, guid: 9c8bdb3ce65c0b94c8198282c8c6b977, type: 3}
+  m_PrefabInstance: {fileID: 181513733394152958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &181513733394152961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181513733394152960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 984aa3225010a7b43a2e763062b52b0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 181513733394152959}
+  vitesse: 0.05
+  limite: 4
 --- !u!1001 &1053883260003363758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -365,6 +393,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8566146433723181598, guid: 9605aa26ebf2ab04eb8d22790fcba291, type: 3}
   m_PrefabInstance: {fileID: 1053883260003363758}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1053883260003363760 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2065042654264695267, guid: 9605aa26ebf2ab04eb8d22790fcba291, type: 3}
+  m_PrefabInstance: {fileID: 1053883260003363758}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1053883260003363761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053883260003363760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e1b1ea520dea104dba917c7c962cc57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabBullet: {fileID: 7577275878714802460, guid: c5272b7204b23f94887c027d57c89ba5, type: 3}
+  limite: 4
+  vitesse: 0.5
 --- !u!1001 &4847391604438872898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -429,6 +477,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 792123354}
     m_Modifications:
+    - target: {fileID: 41436713536486290, guid: b2d64111f439a82438bd8baa204a4681, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5215666143900614326, guid: b2d64111f439a82438bd8baa204a4681, type: 3}
       propertyPath: m_Name
       value: Barriere
@@ -541,3 +593,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f47034da9ffda6e46a6d00d4eb372d5a, type: 3}
+--- !u!4 &7034007301353304112 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8956407982366102560, guid: f47034da9ffda6e46a6d00d4eb372d5a, type: 3}
+  m_PrefabInstance: {fileID: 7034007301353304111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7034007301353304113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4573674216710600569, guid: f47034da9ffda6e46a6d00d4eb372d5a, type: 3}
+  m_PrefabInstance: {fileID: 7034007301353304111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7034007301353304114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7034007301353304113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53988317b09d65848a95bee6198b0260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paravant: {fileID: 7034007301353304112}
