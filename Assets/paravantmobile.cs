@@ -19,7 +19,11 @@ public class paravantmobile : MonoBehaviour
 
     void FixedUpdate()
     {
+        // transform.position = new Vector3(0.0f, vitesse, 0.0f); 
+        // float y = Mathf.Clamp(transform.position.y, -limite, limite);
+
         if (transform.position.x > 12){
+            // transform.position = new Vector3(transform.position.x, y, transform.position.y);
             transform.position = transform.position + new Vector3(-0.01f, 0.0f, 0.0f);
         }
     }
